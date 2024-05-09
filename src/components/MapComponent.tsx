@@ -1,5 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import "../../node_modules/leaflet/dist/leaflet.css"; // Ensure Leaflet CSS is imported
+import "leaflet/dist/leaflet.css"; // Ensure Leaflet CSS is imported
 
 interface Props {
   latitude: number;
