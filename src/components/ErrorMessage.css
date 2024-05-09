@@ -1,0 +1,11 @@
+.error-message{
+    font-family:Rubik;
+    font-weight: 700;
+    font-size: 1rem;
+    color: hsl(0, 100%, 74%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    z-index:402; /*to overlap leaflet map set by leaflet at 400 and result display set at 401 */
+}

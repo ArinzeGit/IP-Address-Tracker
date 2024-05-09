@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Rubik;
+    src: url(./assets/fonts/Rubik-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --very-dark-gray:hsl(0, 0%, 17%);
+    --dark-gray:hsl(0, 0%, 59%)
+}
+
+html,body,div#root,.app{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.app{ 
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height:280px;
+    background-image: url(./assets/images/pattern-bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    Padding: 29px;
+    flex-shrink: 0;
+}
+
+main{
+    height: 300px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    position:relative;
+}
+
+@media screen and (max-width:1150px){
+    main{
+        height: 500px;
+    }
+}
+
+.result-display-container{
+    position: absolute;
+    top:-79.5px;
+    left:50%;
+    transform: translate(-50%);
+    z-index: 401; /*to overlap leaflet map set by leaflet at 400*/
+}
+
+.attribution-container{
+    position:relative;
+}
+  
+.attribution {
+    font-size: 11px;
+    position:absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color:#FFA500;
+    z-index: 401; /*to overlap leaflet map set by leaflet at 400*/
+    background-color:white;
+}
+  
+.attribution a {
+    color:  #3388FF;
+}

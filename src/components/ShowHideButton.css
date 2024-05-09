@@ -1,0 +1,30 @@
+.hide-button,.show-button{
+    position: absolute;
+    top: 5px;
+    left:50%;
+    transform:translate(-50%);
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    cursor: pointer;
+}
+
+.hide-button{
+    background-image: url(../assets/images/eye-slash.svg);
+}
+
+.show-button{
+    background-image: url(../assets/images/eye.svg);
+}
+
+.hide-button:hover{
+    background-color: #677eff;
+}
+
+.show-button:hover{
+    background-color: white;
+}
