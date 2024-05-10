@@ -23,6 +23,12 @@ form input{
     font-size: 1.135rem;
 }
 
+@media screen and (max-width:440px){
+    form input{
+        font-size: 0.85rem;
+    }
+}
+
 form input:focus{
     outline:none;
 }
