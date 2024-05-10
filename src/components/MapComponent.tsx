@@ -12,6 +12,7 @@ function MapComponent({ latitude, longitude }: Props) {
       center={[latitude, longitude]}
       zoom={13}
       style={{ height: "100%" }}
+      scrollWheelZoom={false}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
