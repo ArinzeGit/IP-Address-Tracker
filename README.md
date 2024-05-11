@@ -68,7 +68,7 @@ Users are also able to:
 
 ### What I learned
 
-- I learned to use CSS Modules. CSS Modules allows you to encapsulate CSS styles within individual components, ensuring that styles only apply to specific components and don't leak into other parts of the application.
+- I learned to use CSS Modules. CSS Modules allows you to encapsulate CSS styles within individual components, ensuring that styles only apply to specific components and don't leak into other parts of the application. This was my first project implementing CSS modules.
 
 ```js
 import styles from "./SearchBar.module.css"; //in SearchBar.tsx component
@@ -279,7 +279,7 @@ const handleSubmission = (event: FormEvent<HTMLFormElement>) => {
 };
 ```
 
-- I learned to use the `flex-grow` and `flex-shrink` CSS properties. This has given me more understanding and control of `CSS Flexbox`
+- I learned to use the `flex-grow` and `flex-shrink` CSS properties. This gave me more understanding and control of `CSS Flexbox`
 
 ```css
 .app {
@@ -325,6 +325,7 @@ main {
 
 - CSS Flexbox (flex-grow and flex-shrink)
 - CSS variables
+- CSS Modules
 - React useState, UseEffect, useContext,
 - Media queries
 - Z-index
