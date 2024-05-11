@@ -55,6 +55,7 @@ Users are also able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS Modules
 - [Flexbox](https://www.w3.org/TR/css-flexbox-1/) - CSS web layout model
 - CSS grid - CSS web layout model
 - [TypeScript](https://www.typescriptlang.org/) - Programming language that extends JavaScript
@@ -66,6 +67,12 @@ Users are also able to:
 - [React Leaflet](https://react-leaflet.js.org/) - Library that provides React components that wrap the [LeafletJS](https://leafletjs.com/) library
 
 ### What I learned
+
+- I learned to use CSS Modules. CSS Modules allows you to encapsulate CSS styles within individual components, ensuring that styles only apply to specific components and don't leak into other parts of the application.
+
+```js
+import styles from "./SearchBar.module.css"; //in SearchBar.tsx component
+```
 
 - I learned the concepts of `library APIs` using [LeafletJS](https://leafletjs.com/) and [React Leaflet](https://react-leaflet.js.org/). Before now, I was rather familiar with `web APIs` which allow interaction between web services or apps over the internet via HTTP requests. `Library APIs` on the other hand are provided by libraries or frameworks within a programming language, defining methods and functions for interacting with the functionalities provided by the library or framework. I made use of [React Leaflet](https://react-leaflet.js.org/) components like `<MapContainer>`, `<TileLayer>`, `<Marker>`, and `<Popup>`.
 
