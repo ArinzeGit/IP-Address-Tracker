@@ -1,6 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import markerIconPng from "leaflet/dist/images/marker-icon.png";
 import markerShadowPng from "leaflet/dist/images/marker-shadow.png";
 import { Icon } from "leaflet";
 
@@ -25,12 +24,12 @@ function MapComponent({ latitude, longitude }: Props) {
         position={[latitude, longitude]}
         icon={
           new Icon({
-            iconUrl: markerIconPng,
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
+            iconUrl: `https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png`,
+            iconSize: [48, 55],
+            iconAnchor: [24, 55],
             shadowUrl: markerShadowPng,
-            shadowSize: [41, 41],
-            shadowAnchor: [12, 41],
+            shadowSize: [70, 55],
+            shadowAnchor: [23, 55],
           })
         }
       >
