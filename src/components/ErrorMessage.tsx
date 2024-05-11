@@ -1,7 +1,7 @@
-import "./ErrorMessage.css";
+import styles from "./ErrorMessage.module.css";
 const ErrorMessage = () => {
   return (
-    <div className="error-message">
+    <div className={styles["error-message"]}>
       Sorry, there was an error fetching data.
     </div>
   );

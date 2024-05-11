@@ -1,5 +1,5 @@
 import { ChangeEvent, FormEvent, useContext, useState } from "react";
-import "./SearchBar.css";
+import styles from "./SearchBar.module.css";
 import validateInput from "../utils/validateInput";
 import ErrorIcon from "./ErrorIcon";
 import callIpGeolocationApi from "../utils/callIpGeolocationApi";
@@ -69,19 +69,22 @@ const SearchBar = () => {
   };
 
   return (
-    <form onSubmit={handleSubmission}>
-      <div className="input-container">
+    <form onSubmit={handleSubmission} className={styles.form}>
+      <div className={styles["input-container"]}>
         <input
+          className={styles.input}
           type="text"
           placeholder="Search for any IP address or domain"
           onChange={handleInput}
         />
         {inputFieldError.content && <ErrorIcon />}
         {inputFieldError.content && (
-          <p className="error ">{inputFieldError.content}</p>
+          <p className={styles.error}>{inputFieldError.content}</p>
         )}
       </div>
-      <button type="submit"></button>
+      <button type="submit" className={styles.button}>
+        <span className={styles["visually-hidden"]}>Search</span>
+      </button>
     </form>
   );
 };

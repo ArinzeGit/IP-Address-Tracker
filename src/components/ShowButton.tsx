@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
-import "./ShowHideButton.css";
+import styles from "./ShowHideButton.module.css";
 
 interface Props {
   onClick: Dispatch<SetStateAction<boolean>>;
@@ -8,9 +8,12 @@ interface Props {
 const ShowButtton = ({ onClick }: Props) => {
   return (
     <button
-      className="show-button"
+      className={styles["show-button"]}
+      type="button"
       onClick={() => onClick((prevState) => !prevState)}
-    />
+    >
+      <span className={styles["visually-hidden"]}>Show results</span>
+    </button>
   );
 };
 
