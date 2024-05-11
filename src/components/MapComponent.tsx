@@ -30,6 +30,7 @@ function MapComponent({ latitude, longitude }: Props) {
             shadowUrl: markerShadowPng,
             shadowSize: [70, 55],
             shadowAnchor: [23, 55],
+            popupAnchor: [0, -50],
           })
         }
       >
