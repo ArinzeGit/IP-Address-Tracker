@@ -52,6 +52,10 @@ main{
     left:50%;
     transform: translate(-50%);
     z-index: 401; /*to overlap leaflet map set by leaflet at 400*/
+
+    @media screen and (max-width:1150px){
+        width: min(307px,80%);
+    }
 }
 
 .attribution-container{
