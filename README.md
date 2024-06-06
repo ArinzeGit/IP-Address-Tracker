@@ -40,8 +40,11 @@ Users are also able to:
 
 ### Screenshot
 
+**Desktop version:**  
 ![IP Address Tracker Screenshot1](public/IP%20Address%20Tracker%20Screenshot1.PNG)
-![IP Address Tracker Screenshot2](public/IP%20Address%20Tracker%20Screenshot2.PNG)
+
+**Mobile version**  
+![IP Address Tracker Screenshot2](public/IP%20Address%20Tracker%20Screenshot2.PNG)  
 ![IP Address Tracker Screenshot3](public/IP%20Address%20Tracker%20Screenshot3.PNG)
 
 ### Links
