@@ -50,8 +50,8 @@ Users are also able to:
 
 ### Links
 
-- Solution URL: View the GitHub repository [here](https://github.com/ArinzeGit/IP-Address-Tracker)
-- Live Site URL: I have hosted the project on GitHub Pages [here](https://arinzegit.github.io/IP-Address-Tracker/)
+- [GitHub Repository](https://github.com/ArinzeGit/IP-Address-Tracker)
+- [Live Site URL](https://arinzegit.github.io/IP-Address-Tracker/)
 
 ## My process
 
