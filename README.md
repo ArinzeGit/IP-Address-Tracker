@@ -1,6 +1,6 @@
 # IP address tracker
 
-This project is a dynamic application built with `React` and `TypeScript` that allows users to input any IP address or domain name to track its location, timezone, and ISP. It utilizes the `IP Geolocation API` to fetch relevant data and displays it in a user-friendly interface. Additionally, the application integrates the `Leaflet Map API` to visually represent the location on an interactive map. This project showcases my ability to work with APIs, handle asynchronous data, and create interactive map-based visualizations. I got the design from the ['IP address tracker' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
+This project is a dynamic application built with `React` and `TypeScript` that allows users to input any IP address or domain name to track its location, timezone, and ISP. It utilizes the `IP Geolocation API` to fetch relevant data and displays it in a user-friendly interface. Additionally, the application integrates the `Leaflet Map API` to visually represent the location on an interactive map. This project showcases my ability to work with APIs, `JSON data`, handle asynchronous data, and create interactive map-based visualizations. I got the design from the ['IP address tracker' challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0).
 
 ## Table of contents
 
